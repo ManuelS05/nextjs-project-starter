@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_pin"
+        android:icon="@drawable/ic_pin"
+        android:title="@string/pin_task" />
+
+    <item
+        android:id="@+id/action_duplicate"
+        android:icon="@drawable/ic_duplicate"
+        android:title="@string/duplicate_task" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/action_add_subtask"
+        android:icon="@drawable/ic_add"
+        android:title="@string/add_subtask" />
+
+    <item
+        android:id="@+id/action_attach"
+        android:icon="@drawable/ic_attach"
+        android:title="@string/attach_file" />
+
+    <item
+        android:id="@+id/action_add_comment"
+        android:icon="@drawable/ic_comment"
+        android:title="@string/add_comment" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/delete_task" />
+</menu>
