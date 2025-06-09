@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Database backup -->
+        <include domain="database" path="taskmaster_db"/>
+        
+        <!-- Shared preferences backup -->
+        <include domain="sharedpref" path="."/>
+        
+        <!-- User files backup -->
+        <include domain="file" path="attachments"/>
+        <include domain="file" path="exports"/>
+        
+        <!-- Exclude cache and temporary files -->
+        <exclude domain="file" path="temp/"/>
+        <exclude domain="file" path="cache/"/>
+        <exclude domain="external" path="temp/"/>
+        
+        <!-- Exclude sensitive information -->
+        <exclude domain="sharedpref" path="auth_tokens.xml"/>
+        <exclude domain="sharedpref" path="biometric_settings.xml"/>
+        
+        <!-- Exclude Firebase related files -->
+        <exclude domain="file" path="google-services/"/>
+        <exclude domain="file" path="gcm_cache/"/>
+    </cloud-backup>
+    
+    <device-transfer>
+        <!-- Include all app data for device transfer -->
+        <include domain="database" path="."/>
+        <include domain="sharedpref" path="."/>
+        <include domain="file" path="."/>
+        <include domain="external" path="."/>
+        
+        <!-- Exclude temporary and cache files -->
+        <exclude domain="file" path="temp/"/>
+        <exclude domain="file" path="cache/"/>
+        <exclude domain="external" path="temp/"/>
+        <exclude domain="external" path="cache/"/>
+        
+        <!-- Exclude sensitive information -->
+        <exclude domain="sharedpref" path="auth_tokens.xml"/>
+        <exclude domain="sharedpref" path="biometric_settings.xml"/>
+    </device-transfer>
+</data-extraction-rules>
