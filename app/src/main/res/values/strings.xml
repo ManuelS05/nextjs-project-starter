@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaskMaster</string>
+
+    <!-- Bottom Navigation -->
+    <string name="tasks">Tasks</string>
+    <string name="projects">Projects</string>
+    <string name="calendar">Calendar</string>
+    <string name="profile">Profile</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="display_name">Name</string>
+
+    <!-- Tasks -->
+    <string name="add_task">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_details">Task Details</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="priority">Priority</string>
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+    <string name="tags">Tags</string>
+    <string name="add_tag">Add Tag</string>
+    <string name="recurring">Recurring</string>
+    <string name="recurring_daily">Daily</string>
+    <string name="recurring_weekly">Weekly</string>
+    <string name="recurring_monthly">Monthly</string>
+    <string name="mark_complete">Mark as Complete</string>
+    <string name="mark_incomplete">Mark as Incomplete</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="duplicate_task">Duplicate Task</string>
+    <string name="pin_task">Pin Task</string>
+    <string name="unpin_task">Unpin Task</string>
+    <string name="add_subtask">Add Subtask</string>
+    <string name="attach_file">Attach File</string>
+    <string name="add_comment">Add Comment</string>
+
+    <!-- Projects -->
+    <string name="add_project">Add Project</string>
+    <string name="edit_project">Edit Project</string>
+    <string name="project_details">Project Details</string>
+    <string name="project_name">Project Name</string>
+    <string name="project_description">Project Description</string>
+    <string name="project_color">Color</string>
+    <string name="add_member">Add Member</string>
+    <string name="remove_member">Remove Member</string>
+    <string name="archive_project">Archive Project</string>
+    <string name="unarchive_project">Unarchive Project</string>
+    <string name="delete_project">Delete Project</string>
+    <string name="duplicate_project">Duplicate Project</string>
+
+    <!-- Calendar -->
+    <string name="today">Today</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="overdue">Overdue</string>
+    <string name="no_due_date">No Due Date</string>
+
+    <!-- Profile & Settings -->
+    <string name="settings">Settings</string>
+    <string name="theme">Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="sync">Sync</string>
+    <string name="google_calendar">Google Calendar</string>
+    <string name="backup">Backup</string>
+    <string name="export">Export</string>
+    <string name="change_password">Change Password</string>
+    <string name="biometric_auth">Biometric Authentication</string>
+
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="share">Share</string>
+    <string name="more">More</string>
+    <string name="done">Done</string>
+
+    <!-- Messages -->
+    <string name="error_required">Field required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_login">Login failed</string>
+    <string name="error_register">Registration failed</string>
+    <string name="error_network">Network error</string>
+    <string name="success_task_created">Task created</string>
+    <string name="success_task_updated">Task updated</string>
+    <string name="success_task_deleted">Task deleted</string>
+    <string name="success_project_created">Project created</string>
+    <string name="success_project_updated">Project updated</string>
+    <string name="success_project_deleted">Project deleted</string>
+    <string name="confirm_delete">Are you sure you want to delete?</string>
+    <string name="no_tasks">No tasks</string>
+    <string name="no_projects">No projects</string>
+</resources>
